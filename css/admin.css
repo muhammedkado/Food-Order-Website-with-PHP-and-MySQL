@@ -10,7 +10,7 @@ color : #ff4757;
 
 }
 .wrapper{
-    border:1px solid black;
+ 
     padding: 1%;
     width:80%;
     margin:0 auto;
@@ -18,7 +18,15 @@ color : #ff4757;
 .text-center{
     text-align: center;
 }
+.clearfix{
+    float:none;
+    clear:both
+}
 /*css for menu*/
+.menu{
+    border: 1px solid rgb(0, 0, 0);
+
+}
 
 .menu ul{
     list-style-type: none;
@@ -28,6 +36,34 @@ color : #ff4757;
     display:inline;
     padding: 1%;
 }
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color:#ff6b81;
+}
+.menu ul li a:hover{
+    color:#ff8757;
+}
+
+
+/*css for main content*/
+.main-content{
+    background-color:#f1f2f6;
+    padding:3% 0;
+}
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin:1%;
+    padding:2%;
+    float:left;
+    
+   
+
+
+}
+
+
 
 /* css for footer*/
 
